@@ -1,0 +1,6 @@
+# Dependencias
+.env
+
+logs/*
+!log/
+venv/
