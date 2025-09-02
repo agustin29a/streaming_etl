@@ -9,8 +9,8 @@ S3 (Bronze Layer) → Airflow ETL → S3 (Silver Layer) → PostgreSQL → Anál
 ## ✨ Características
 
 - **Orquestación con Airflow**: Pipeline automatizado y programable
-- **Almacenamiento en AWS S3**: Dos capas (Bronze y Silver)
-- **Base de Datos PostgreSQL**: Esquema relacional completo
+- **Almacenamiento en AWS S3**: Bronze y Silver
+- **Base de Datos AWS RDS PostgreSQL**: Esquema relacional completo
 - **Procesamiento con Pandas**: Transformación eficiente de datos
 - **Análisis Avanzado**: Consultas SQL con funciones de ventana
 
