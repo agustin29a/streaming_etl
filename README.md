@@ -3,6 +3,21 @@
 
 Pipeline ETL completo para una plataforma de streaming que procesa datos desde AWS S3 hasta PostgreSQL, utilizando Apache Airflow para orquestación y Pandas para transformación de datos.
 
+**Estructura del proyecto:**
+- config/
+  - airflow.cfg
+- dags/
+  - streaming-etl.py
+- gold/
+  - Analisis de datos.ipynb
+- plugins/
+  - helpers/
+    - metadata.py
+    - my_utilities.py
+- Dockerfile
+- Presentacion - ETL.pdf
+- docker-compose.yaml
+  
 ## 🏗️ Arquitectura
 S3 (Bronze Layer) → Airflow ETL → S3 (Silver Layer) → PostgreSQL → Análisis
 
