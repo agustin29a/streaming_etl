@@ -230,8 +230,6 @@ def convertir_dataframes_a_parquet_s3(diccionario_dataframes):
     Returns:
         bool: True si todos los archivos se procesaron exitosamente, False si hubo errores
     """
-    # Cargar variables de entorno
-    load_dotenv()
     
     try:
         # Configurar sesión de AWS
